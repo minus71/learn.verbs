@@ -1,0 +1,18 @@
+body {
+    font-size: 1.4em;
+    font-family: sans-serif; 
+}
+
+.ok input{
+    font-weight: bold ;
+    background-color: limegreen !important;
+}
+
+.fail input {
+    font-weight: bold;
+    background-color: lightcoral !important;
+}
+
+.question-group {
+    margin: 1em
+}

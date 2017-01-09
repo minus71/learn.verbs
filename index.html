@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>Irregular verbs</title>
+        <link rel="stylesheet" href="css/irregular.css">
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" >
+    </head>
+    <body>
+
+
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Irregular verbs</h1>
+        <div  class="commands"><button id="reset_btn" class="btn btn-default">reset</button></div>
+      </div>
+    </div>
+    <div class="container">
+        <div id="questions">
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="js/irregular.js"></script>
+        <script>
+            var list = [
+["essere               ","be","was/were","been"                   ],
+["iniziare             ","begin","began","begun"                  ],
+["soffiare             ","blow","blew","blown"                    ],
+["rompere              ","break","broke","broken"                 ],
+["portare              ","bring","brought","brought"              ],
+["costruire            ","build","built","built"                  ],
+["bruciare             ","burn","burnt","burnt"                   ],
+["comprare             ","buy","bought","bought"                  ],
+["afferrare            ","catch","caught","caught"                ],
+["scegliere            ","choose","chose","chosen"                ],
+["venire               ","come","came","come"                     ],
+["costare              ","cost","cost","cost"                     ],
+["tagliare             ","cut","cut","cut"                        ],
+["fare                 ","do","did","done"                        ],
+["disegnare            ","draw","drew","drawn"                    ],
+["bere                 ","drink","drank","drunk"                  ],
+["guidare              ","drive","drove","driven"                 ],
+["mangiare             ","eat","ate","eaten"                      ],
+["cadere               ","fall","fell","fallen"                   ],
+["percepire/sentire    ","feel","felt","felt"                     ],
+["combattere           ","fight","fought","fought"                ],
+["trovare              ","find","found","found"                   ],
+["volare               ","fly","flew","flown"                     ],
+["dimenticare          ","forget","forgot","forgotten"            ],
+["perdonare            ","forgive","forgave","forgiven"           ],
+["prendere/attivare    ","get","got","got"                        ],
+["dare                 ","give","gave","given"                    ],
+["andare               ","go","went","gone"                       ],
+["avere                ","have","had","had"                       ],
+["sentire/udire        ","hear","heard","heard"                   ],
+["colpire              ","hit","hit","hit"                        ],
+["tenere/trattenere    ","hold","held","held"                     ],
+["ferire               ","hurt","hurt","hurt"                     ],
+["tenere/conservare    ","keep","kept","kept"                     ],
+["conoscere            ","know","knew","known"                    ],
+["imparare             ","learn","learnt","learnt"                ],
+["lasciare/abbandonare ","leave","left","left"                    ],
+["permettere           ","let","let","let"                        ],
+["perdere              ","lose","lost","lost"                     ],
+["fare                 ","make","made","made"                     ],
+["significare          ","mean","meant","meant"                   ],
+["incontrare           ","meet","met","met"                       ],
+["pagare               ","pay","paid","paid"                      ],
+["mettere              ","put","put","put"                        ],
+["leggere              ","read","read","read"                     ],
+["cavalcare            ","ride","rode","ridden"                   ],
+["suonare (campanello) ","ring","rang","rung"                     ],
+["correre              ","run","ran","run"                        ],
+["dire                 ","say","said","said"                      ],
+["vedere               ","see","saw","seen"                       ],
+["vendere              ","sell","sold","sold"                     ],
+["inviare              ","send","sent","sent"                     ],
+["mostrare             ","show","showed","shown"                  ],
+["chiudere/serrare     ","shut","shut","shut"                     ],
+["cantare              ","sing","sang","sung"                     ],
+["sedere               ","sit","sat","sat"                        ],
+["dormire              ","sleep","slept","slept"                  ],
+["parlare              ","speak","spoke","spoken"                 ],
+["spendere             ","spend","spent","spent"                  ],
+["rimanere             ","stand","stood","stood"                  ],
+["rubare               ","steal","stole","stolen"                 ],
+["nuotare              ","swim","swam","swum"                     ],
+["prendere             ","take","took","taken"                    ],
+["insegnare            ","teach","taught","taught"                ],
+["racconantare         ","tell","told","told"                     ],
+["pensare              ","think","thought","thought"              ],
+["tirare/lanciare      ","throw","threw","thrown"                 ],
+["comprendere          ","understand","understood","understood"   ],
+["svegliare            ","wake","woke","woken"                    ],
+["indossare            ","wear","wore","worn"                     ],
+["vincere              ","win","won","won"                        ],
+["scrivere             ","write","wrote","written"                ]];
+            Learn.start('#questions',list);
+            Learn.setResetButton('#reset_btn');
+        </script>
+        </div>
+      </div>
+    </body>
+</html>
