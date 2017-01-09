@@ -85,7 +85,7 @@ var Learn;
 
             for(var i in _list){
                 var q = _list[i];
-                var q_elm = $('<div class=".col-xs-3 col-md-3 question-group"></div>');
+                var q_elm = $('<div class="col-xs-12 col-md-3 question-group"></div>');
                 var lbl = $('<span>'+q[0]+'</span>');
                 q_elm.append(lbl);
                 var answers = $('<div class="answers" />');
@@ -109,7 +109,6 @@ var Learn;
                 q_elm.append(check);
                 qs_elms.push(q_elm);
             }
-            $();
             _elm.html(qs_elms);
             
         }
